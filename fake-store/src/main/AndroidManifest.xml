@@ -24,11 +24,6 @@
         android:icon="@drawable/icon"
         android:label="@string/app_name">
 
-        <activity
-            android:name=".GrantFakeSignaturePermissionActivity"
-            android:exported="true"
-            android:theme="@style/Theme.Dialog.NoActionBar"/>
-
         <service
             android:name="com.android.vending.billing.InAppBillingService" >
             <intent-filter>
