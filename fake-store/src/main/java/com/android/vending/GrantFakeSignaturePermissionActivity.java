@@ -27,8 +27,8 @@ public class GrantFakeSignaturePermissionActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (checkSelfPermission("android.permission.FAKE_PACKAGE_SIGNATURE") != PackageManager.PERMISSION_GRANTED) {
-            requestPermissions(new String[]{"android.permission.FAKE_PACKAGE_SIGNATURE"}, 1);
+        if (checkSelfPermission("android.permission.MICROG_SPOOF_SIGNATURE") != PackageManager.PERMISSION_GRANTED) {
+            requestPermissions(new String[]{"android.permission.MICROG_SPOOF_SIGNATURE"}, 1);
         } else {
             setResult(RESULT_OK);
             finish();
