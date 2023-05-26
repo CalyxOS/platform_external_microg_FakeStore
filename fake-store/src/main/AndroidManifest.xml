@@ -9,7 +9,6 @@
     <permission android:name="com.android.vending.CHECK_LICENSE" android:protectionLevel="normal"/>
     <uses-permission android:name="android.permission.MICROG_SPOOF_SIGNATURE"/>
     <application
-            android:forceQueryable="true"
             android:icon="@mipmap/ic_app"
             android:label="@string/app_name">
 
